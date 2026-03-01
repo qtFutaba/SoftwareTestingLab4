@@ -1,0 +1,6 @@
+TestCase,Nights,Age,isResident,isVeteran,Expected
+TC 1.1,-10,5,TRUE,TRUE,com.baarsch_bytes.Exceptions.NightReservationException
+TC 1.6,0,5,FALSE,FALSE,com.baarsch_bytes.Exceptions.NightReservationException
+TC 1.3,16,5,TRUE,TRUE,com.baarsch_bytes.Exceptions.NightReservationException
+TC 1.4,5,-5,TRUE,TRUE,com.baarsch_bytes.Exceptions.GuestAgeReservationException
+TC 2.5,15,5,FALSE,FALSE,com.baarsch_bytes.Exceptions.NightReservationException
